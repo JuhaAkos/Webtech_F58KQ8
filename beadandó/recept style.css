@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	position: relative;	
+	margin: 0;	
+	background-image: linear-gradient(to right, #e7b05c , #f1d267);
+	font-size: 120%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100vw;
+	height:100%;
+}
+
+.main {
+	position: relative;	
+	margin-left: 2vw; 
+	margin-top: 195px;   
+    margin-bottom: 0; 
+	height: 100%;
+}
+
+.header {
+    background-image: linear-gradient(to right, #e7b05c , #f1d267);
+    padding: 5px;
+    text-align: center;
+	font-size: 140%;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+	top: 140px;
+	width: 100%;
+	font-size: 120%;	
+	z-index: 1;
+}
+
+.topnavBal {
+	padding-left: 100px;
+	float: left;
+}
+
+.topnavJobb {
+	padding-right: 100px;
+}
+
+.topnav a {
+    display: block;
+    color: #f2f2f2;
+	float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.felsor {
+	 line-height: 200%;
+}
+
+.note0 {
+	position: absolute;
+	transform: translate(0vw, 1vw);
+	z-index: -1;
+	border-left: 40px solid #d38b39;
+	background-color: white;
+	padding: 1vw;
+	width: 20vw;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+}
+
+.recept {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	position: absolute;	
+	transform: translate(100vw, 0);
+	text-align: left;	
+	width: 55vw;
+	padding-left: 1vw;
+	padding-right: 15vw;	
+}
+
+.recept:hover{
+	transform: translate(45vw, 0);
+	transition-duration: 3s;		
+}
+
+.note{
+	background-color: #a6322b;
+	position: relative;
+	padding-top: 1vw;
+	padding-bottom: 2vw;
+	left: -8vw;
+	width: 63vw; 
+}
+
+.recept2 {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	position: absolute;	
+	top: 3vw;
+	transform: translate(100vw, 0);
+	text-align: left;	
+	width: 55vw;
+	padding-left: 1vw;
+	padding-right: 15vw;	
+}
+
+.recept2:hover{
+	transform: translate(45vw, 0);
+	transition-duration: 3s;		
+}
+
+.note2{
+	background-color: #61ce5f;
+	position: relative;
+	padding-top: 1vw;
+	padding-bottom: 2vw;
+	left: -8vw;
+	width: 63vw; 
+}
+
+.recept3 {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	position: absolute;	
+	top: 6vw;
+	transform: translate(100vw, 0);
+	text-align: left;	
+	width: 55vw;
+	padding-left: 1vw;
+	padding-right: 15vw;	
+}
+
+.recept3:hover{
+	transform: translate(45vw, 0);
+	transition-duration: 3s;		
+}
+
+.note3{
+	background-color: #28b5d1;
+	position: relative;
+	padding-top: 1vw;
+	padding-bottom: 2vw;
+	left: -8vw;
+	width: 63vw; 
+}
